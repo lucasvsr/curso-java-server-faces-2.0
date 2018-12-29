@@ -6,5 +6,16 @@
 
 	<h1>Meu primeiro exemplo JSF</h1>
 	
-	Sabe o que o bean tem a dizer? #{meuPrimeiroBean.ola}
+	Sabe o que o bean tem a dizer?
+	<h:outputText value="#{meuPrimeiroBean.ola}" rendered="#{meuPrimeiroBean.exibir}" escape="false"/>
+	<br/>
+	<br/>
+	<h:form>
+		Vamos exibir o que o bean tem a dizer?
+		<h:selectBooleanCheckbox value="#{meuPrimeiroBean.exibir}" />
+		<h:commandButton value="Enviar" />
+		
+		Link para IFPE
+		<h:outputLink value="http://ifpe.edu.br">IFPE</h:outputLink>
+	</h:form>
 </html>

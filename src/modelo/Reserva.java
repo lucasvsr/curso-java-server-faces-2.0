@@ -11,7 +11,6 @@ import modelo.Pessoa;
  *
  */
 @Entity
-
 public class Reserva implements Serializable {
 
 	   

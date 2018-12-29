@@ -21,6 +21,19 @@ tr.linha2 > rd {
 	background-color: #FFFFFF;
 }
 
+.info {
+	color: #00F;
+}
+
+.warn {
+	color: #CC0;
+}
+
 .erro {
 	color: #cc0000;
+}
+
+.fatal {
+	color: #F00;
+	font-weight: bold;
 }
